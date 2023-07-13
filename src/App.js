@@ -95,7 +95,7 @@ function App() {
                         <p className="text-center">Время ожидания звонка истекло, номер {clientNumber} не
                             верифицирован.</p>
                     ) : view === 'error' ? (
-                        <p className="text-center">При обработки запроса произошла ошибка.</p>
+                        <p className="text-center">При обработке запроса произошла ошибка.</p>
                     ) : null}
                 </div>
             </div>
